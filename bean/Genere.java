@@ -41,6 +41,12 @@ public class Genere {
         this.dewey = dewey;
     }
 
+    @Override
+    public String toString() {
+        return "Genere [idGenere=" + idGenere + ", nome=" + nome + ", sottogenere=" + sottogenere + ", dewey=" + dewey
+                + "]";
+    }
+
 
 } 
 
