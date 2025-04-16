@@ -2,7 +2,7 @@ public class Genere {
     private int idGenere;
     private String nome;
     private String sottogenere;
-    private double dewey; // può essere null
+    private double dewey;
 
     // Costruttore vuoto
     public Genere() {
