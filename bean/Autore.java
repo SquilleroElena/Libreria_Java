@@ -60,4 +60,11 @@ public class Autore {
     public void setAnnoDecesso(Date annoDecesso) {
         this.annoDecesso = annoDecesso;
     }
+
+    @Override
+    public String toString() {
+        return "Autore [idAutore=" + idAutore + ", nome=" + nome + ", cognome=" + cognome + ", paeseNascita="
+                + paeseNascita + ", dataNascita=" + dataNascita + ", annoDecesso=" + annoDecesso + "]";
+    }
+    
 }
