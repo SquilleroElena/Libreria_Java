@@ -90,6 +90,20 @@ public class Prestito {
     }
 
 
+    @Override
+    public String toString() {
+        return "{" +
+            " id_prestito='" + getId_prestito() + "'" +
+            ", fkIdLibro='" + getFkIdLibro() + "'" +
+            ", dataPrestito='" + getDataPrestito() + "'" +
+            ", dataRestituzione='" + getDataRestituzione() + "'" +
+            ", stato='" + getStato() + "'" +
+            ", penale='" + getPenale() + "'" +
+            ", estenzione='" + getEstenzione() + "'" +
+            ", note='" + getNote() + "'" +
+            "}";
+    }
+    
 }
 
     
